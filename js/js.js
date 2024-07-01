@@ -1,6 +1,6 @@
 function updateCountdownTimer() {
   const currentDate = new Date();
-  const targetDate = new Date("2025-01-01T00:00:00");
+  const targetDate = new Date("2024-31-01T00:00:00");
   const timeDifference = targetDate - currentDate;
 
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
