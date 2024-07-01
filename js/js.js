@@ -22,5 +22,5 @@ marker.forEach((chall) => {
   chall.addEventListener("click", () => {
     chall.classList.toggle("checked");
   });
-  console.log(timeDiffrence);
+ 
 });
